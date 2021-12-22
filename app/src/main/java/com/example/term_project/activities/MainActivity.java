@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setupToolbar();
         setupViews();
-        //setupFAB();
+        setupFAB();
         setupFields();
     }
 
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     private void setupFields() {
         Intent intent = new Intent(this,MainActivity. class);
         Bundle bundle = new Bundle();
-        xylophone = new Xylophone(intent);
+        xylophone = new Xylophone(getApplicationContext());
     }
 
     private void setupViews() {
@@ -93,31 +93,31 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void a(View view) {
+    public void a(View view) {
 
         xylophone.a(view);
     }
-    private void b(View view) {
+    public void b(View view) {
 
         xylophone.b(view);
     }
-    private void c(View view) {
+    public  void c(View view) {
 
         xylophone.c(view);
     }
-    private void d(View view) {
+    public  void d(View view) {
 
         xylophone.d(view);
     }
-    private void e(View view) {
+    public  void e(View view) {
 
         xylophone.e(view);
     }
-    private void f(View view) {
+    public void f(View view) {
 
         xylophone.f(view);
     }
-    private void g(View view) {
+    public  void g(View view) {
 
         xylophone.g(view);
     }

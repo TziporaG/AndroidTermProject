@@ -1,6 +1,7 @@
 package com.example.term_project.models;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.media.AudioManager;
 import android.media.SoundPool;
@@ -35,11 +36,11 @@ public class Xylophone
     private int mASoundId6;
     private int mBSoundId7;
 
-    private Activity context;
+    private Context mContext;
 
-    public Xylophone(Intent MainActivity)
+    public Xylophone(Context context)
     {
-        context = (Activity) MyApp.getAppContext();
+        mContext = context;
         // Create a new SoundPool
         mSoundPool = new SoundPool(NR_OF_SIMULTANEOUS_SOUNDS, AudioManager.STREAM_MUSIC, 0);
 
