@@ -15,5 +15,8 @@
     <string name="night_mode_title">Night/Dark Mode</string>
     <string name="night_mode_off">Never use Night/Dark Mode</string>
     <string name="night_mode_on">Use Night/Dark Mode (unless disabled in OS Settings)</string>
+    <string name="start_playing">Start Playing!</string>
+    <string name="about_xylophones">About Xylophones</string>
+    <string name="welcome_to_the_xylophone_app">Welcome to the Xylophone App!</string>
 
 </resources>
