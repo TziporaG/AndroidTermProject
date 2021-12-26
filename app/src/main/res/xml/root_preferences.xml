@@ -5,6 +5,7 @@
             app:key="@string/night_mode_key"
             app:summaryOff="@string/night_mode_off"
             app:summaryOn="@string/night_mode_on"
-            app:title="@string/night_mode_title" />
+            app:title="@string/night_mode_title"
+            />
     </PreferenceCategory>
 </PreferenceScreen>

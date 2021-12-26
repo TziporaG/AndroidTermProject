@@ -3,6 +3,8 @@
 
     <item android:color="?android:attr/textColorPrimary" android:state_pressed="true" />
     <item android:alpha="?android:attr/disabledAlpha" android:color="?android:attr/textColorSecondary" android:state_enabled="false" />
-    <item android:color="@color/colorPrimaryTextcoloredColored" />    <!-- "Normal"/default State goes last, as shown -->
+    <item android:color="@color/colorPrimaryTextcoloredColored" />
+
+    <!-- "Normal"/default State goes last, as shown -->
 
 </selector>

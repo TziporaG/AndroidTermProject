@@ -8,4 +8,6 @@
 
     <!-- Matching colored background -->
     <color name="backgroundColoredcolor">@color/black</color>
+
+    <color name="ic_launcher1_background">@color/black</color>
 </resources>

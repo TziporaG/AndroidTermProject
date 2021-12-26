@@ -22,10 +22,9 @@ public class HomeActivity extends AppCompatActivity {
         startActivity (new Intent(getApplicationContext (), MainActivity.class));
     }
 
-    //TODO add the text to this method and make it a string
     public void showAboutXylophone(View view) {
 
         showInfoDialog(HomeActivity.this,
-                getString(R.string.info_title), "words...");
+                getString(R.string.title), "The xylophone literally meaning 'sound of wood' in Ancient Greek is a musical instrument in the percussion instrument family that consists of wooden bars struck by mallets. (Wikipedia) ");
     }
 }
