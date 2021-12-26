@@ -1,19 +1,12 @@
 package com.example.term_project.models;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.media.AudioManager;
 import android.media.SoundPool;
-import android.os.Bundle;
 import android.view.View;
 
-import androidx.appcompat.widget.Toolbar;
-
 import com.example.term_project.R;
-import com.example.term_project.activities.MyApp;
 import com.google.gson.Gson;
-import java.util.Arrays;
 
 public class Xylophone
 {
